@@ -7,3 +7,11 @@ before_install:
 
 script:
    - docker run -e CI=true shankar0043/docker-react npm run test
+
+deploy:
+   provider: azure_web_apps
+   verbose: true
+   username: $User_Name
+   password: $Password
+   site: mysite
+   slot: reatapplication1-Staging

@@ -15,3 +15,5 @@ deploy:
    password: $Password
    site: mysite
    slot: reatapplication1-Staging
+   on:
+      branch: master

@@ -13,7 +13,6 @@ deploy:
    verbose: true
    username: $User_Name
    password: $Password
-   site: mysite
-   slot: reatapplication1-Staging
+   site: reactapplication1
    on:
       branch: master

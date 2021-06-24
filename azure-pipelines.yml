@@ -6,7 +6,7 @@ trigger:
 - master
 
 resources:
-- repo: self
+- repo: Microsoft
 
 variables:
   tag: '$(Build.BuildId)'
